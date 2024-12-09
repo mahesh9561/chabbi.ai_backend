@@ -23,6 +23,11 @@ const UserSchema = new Schema({
     country: {
         type: String,
         default: "India"
+    },
+    role: {
+        type: String,
+        enum: ['user', 'admin'],
+        default: 'user' // Default role is user
     }
 })
 
