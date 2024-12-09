@@ -7,7 +7,7 @@ const blogRouter = require('./routes/BloggerRoute');
 const app = express();
 
 app.use(cors(
-    { origin: 'https://chaabi-ai-frontend-fqokwojjx-mahesh-pathaks-projects.vercel.app/', credentials: true } 
+    { origin: 'https://chaabi-ai-frontend-fqokwojjx-mahesh-pathaks-projects.vercel.app', credentials: true } 
 ));
 
 app.use(express.urlencoded({ extended: true }))
