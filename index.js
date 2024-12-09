@@ -8,7 +8,7 @@ const app = express();
 
 // CORS configuration with additional options
 app.use(cors({
-  origin: 'https://chaabi-ai-frontend-fqokwojjx-mahesh-pathaks-projects.vercel.app',
+  origin: 'https://chaabi-ai-frontend.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow the necessary methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allow headers
   credentials: true // Use credentials if needed (cookies, headers)
